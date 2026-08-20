@@ -1,0 +1,26 @@
+erDiagram
+BRANCH{
+STRING Addrees
+INT BanchID
+STRING City
+STRING State
+INT Zipcode
+}
+EMPLOYEES{
+ INT BranchID
+ STRING EmployeID
+DATE HIreDAte
+STRING lastname
+INT ManagerID
+STRING Position
+}
+CUSTOMER{
+  sting Address
+  INT BranchID
+  INT CUustomerID
+  STRING CustomerName
+  INT DtaeofBirth
+}
+    BRANCH ||--|{ EMPLOYEES : "CAN HAVE MULTIPLE"    
+    BRANCH ||--|{CUSTOMER: "CAN HAVE MULTIPLE" 
+    
