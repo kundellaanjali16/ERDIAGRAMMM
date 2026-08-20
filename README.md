@@ -1,2 +1,16 @@
-# ERDIAGRAMMM
+erDiagram
+STRING Addrees
+INT BanchID
+STRING City
+STRING State
+INT Zipcocde
+{
+INT BranchID
+STRING EmployeID
+DATE HIreDAte
+STRING lastname
+INT ManagerID
+STRING Manger position
+}
+    BRANCH ||--|{ EMPLOYEES : "CAN HAVE MULTIPLE"# ERDIAGRAMMM
 ER OF AN EMPLOYEE
